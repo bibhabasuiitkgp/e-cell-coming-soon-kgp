@@ -588,7 +588,6 @@ section {
     animation-iteration-count: infinite;
     animation-duration: 1.5s;
     animation-direction:alternate;
-    animation-delay: 4s;
 }
   .bottom{
     width: 45%;
@@ -599,9 +598,9 @@ section {
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
     animation-duration: 1.5s;
-    animation-direction:alternate-reverse;
-    animation-delay: 4s;
-    
+    animation-direction:alternate;
+  
+    animation-delay: 1.5s;
 }
  
 
