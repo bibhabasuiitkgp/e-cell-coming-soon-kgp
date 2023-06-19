@@ -48,10 +48,33 @@
 
 
 
+.title {
+    position:absolute;
+    top: -100px;
+    left: 400px;
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(5rem, 5vw, 1rem);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: rgb(205, 177, 68) ;
+    padding: 150px;
+
+  }
+  .title:hover {
+    
+    color: white;
+  }
 
 
 .ead-img{
-    width: 9em;
+    border-radius: 4px;
+    width: 150px;
+    
+    position: relative;
+    top: -25px;
+ 
+    object-fit: fill;
+    
 }
 /* .start-trial {
     height: 100%;
@@ -84,6 +107,7 @@
     color: #fff;
     transform: translateY(-7px);
   }
+  
 /* .start-trial form a {
     position: relative;
     display: inline-block;
@@ -194,6 +218,64 @@
     cursor: pointer;
     color: black;
 } */
+.wrapper11{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 370px;
+}
+a1{
+  display: block;
+  width: 150px;
+  line-height: 40px;
+  background:rgb(57, 31, 123) ;
+  text-align: center;
+  position: relative;
+  top: 170px;
+  right: 120px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+a1:before,
+a1:after{
+  position: absolute;
+  content: "";
+  transition: all .25s;
+}
+
+a1:before{
+  border-bottom: 2px solid rgb(205, 177, 68);
+  border-left: 2px solid rgb(205, 177, 68);
+  width: 10%;
+  height: 33%;
+  left: -10px;
+  bottom: -10px;
+}
+
+a1:after{
+  border-top: 2px solid rgb(205, 177, 68);
+  border-right: 2px solid rgb(205, 177, 68);
+  width: 10%;
+  height: 33%;
+  top: -10px;
+  right: -10px;
+}
+
+a1:hover:before{
+  width: 112%;
+  height: 140%;
+}
+
+a1:hover:after{
+  width: 112%;
+  height: 140%;
+}
 .link1{
     text-decoration: none;
     color: #000000;
@@ -485,6 +567,8 @@ body {
     text-decoration: none;
     color: #303030;
     font-size: 24px;
+    position: relative;
+    top: 20px;
 }
 
 .social-row ul li a:hover {
