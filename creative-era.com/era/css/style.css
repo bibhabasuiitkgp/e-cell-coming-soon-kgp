@@ -218,6 +218,7 @@
     cursor: pointer;
     color: black;
 } */
+
 .wrapper11{
   position: fixed;
   top: 50%;
@@ -393,6 +394,9 @@ html,
 .nightmode-font .copyright-txt,
 .nightmode-font .countdown-caption p .dull-text {
     color: rgba(255, 255, 255, 0.30);
+    position: relative;
+    top: 20px;
+    left: 198px;
 }
 
 .nightmode-font .down-op {
@@ -403,6 +407,7 @@ html,
 .white-font .down-op,
 .white-font .countdown-caption p .dull-text {
     color: rgba(255, 255, 255, 0.30);
+    
 }
 
 .black-font .copyright-txt {
@@ -568,7 +573,8 @@ body {
     color: #303030;
     font-size: 24px;
     position: relative;
-    top: 20px;
+    top: 50px;
+    left: 193px;
 }
 
 .social-row ul li a:hover {
@@ -583,6 +589,7 @@ body {
     display: inline-block;
     margin-right: 27px;
     vertical-align: middle;
+  
 }
 
 .icon-gplus {
@@ -673,10 +680,7 @@ body {
     display: block;
 }
 
-.copyright-txt {
-    color: #8a8b8b;
-    font-size: 14px;
-}
+
 
 .seconds-holder {
     position: absolute;
@@ -807,9 +811,7 @@ only screen and ( min-resolution: 2dppx) and ( max-width: 2000px) {
     -o-transition: all 0.2s;
 } */
 
-.copyright-txt a {
-    color: #c5a25b;
-}
+
 
 .countdown-caption {
     margin-bottom: 15.4vh;
@@ -1360,9 +1362,7 @@ svg.dark_digit {
         height: 559px;
         bottom: -493px;
     }
-    .copyright-txt {
-        font-size: 11px;
-    }
+
     .middle-area {
         position: absolute;
         top: 50%;
@@ -1477,10 +1477,7 @@ svg.dark_digit {
     .slot-type:nth-child(2):after {
         font-size: 14px;
     }
-    .copyright-txt {
-        margin-top: 10px;
-        font-size: 12px;
-    }
+ 
     .countdown-row:after {
         height: 535px;
         bottom: -494px;
@@ -1551,9 +1548,7 @@ svg.dark_digit {
         width: auto;
         font-size: 11px !important;
     }
-    .copyright-txt {
-        margin-top: 5px;
-    }
+  
     .countdown-row:after {
         height: 489px;
         bottom: -494px;
@@ -1614,9 +1609,7 @@ svg.dark_digit {
         width: auto;
         font-size: 11px !important;
     }
-    .copyright-txt {
-        margin-top: 5px;
-    }
+   
     .countdown-row:before {
         height: 184px;
         top: -185px;
