@@ -40,6 +40,7 @@ document.querySelector('.title').onmouseover = (event) => {
     iteration += 1 / 3;
   }, 50);
 };
+
     //Code for change youtube video. for video background verient.
     if ($('#ytvid').length > 0) {
         var options = {
