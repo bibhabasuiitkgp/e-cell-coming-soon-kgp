@@ -586,8 +586,9 @@ section {
     animation-name: fade;
     animation-timing-function: ease-in;
     animation-iteration-count: infinite;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-direction:alternate;
+    animation-delay: 4s;
 }
   .bottom{
     width: 45%;
@@ -597,9 +598,10 @@ section {
     
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-direction:alternate-reverse;
-    animation-delay: -1s;
+    animation-delay: 4s;
+    
 }
  
 
