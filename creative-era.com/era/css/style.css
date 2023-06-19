@@ -230,7 +230,7 @@ a1{
   display: block;
   width: 150px;
   line-height: 40px;
-  background:rgb(57, 31, 123) ;
+  background:rgb(123, 97, 31) ;
   text-align: center;
   position: relative;
   top: 170px;
@@ -251,8 +251,8 @@ a1:after{
 }
 
 a1:before{
-  border-bottom: 2px solid rgb(205, 177, 68);
-  border-left: 2px solid rgb(205, 177, 68);
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-left: 2px solid rgb(255, 255, 255);
   width: 10%;
   height: 33%;
   left: -10px;
@@ -260,8 +260,8 @@ a1:before{
 }
 
 a1:after{
-  border-top: 2px solid rgb(205, 177, 68);
-  border-right: 2px solid rgb(205, 177, 68);
+  border-top: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
   width: 10%;
   height: 33%;
   top: -10px;
