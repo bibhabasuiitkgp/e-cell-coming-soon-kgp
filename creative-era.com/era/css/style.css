@@ -599,6 +599,7 @@ section {
     animation-iteration-count: infinite;
     animation-duration: 3s;
     animation-direction:alternate-reverse;
+    animation-delay: -1s;
 }
  
 
