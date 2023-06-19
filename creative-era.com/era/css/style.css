@@ -294,6 +294,7 @@ iframe,
 object,
 embed,
 #myVideo {
+    z-index: -1000;
     position: fixed;
     right: 0;
     bottom: 0;
