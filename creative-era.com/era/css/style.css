@@ -51,7 +51,7 @@
 .title {
     position:absolute;
     top: -100px;
-    left: 400px;
+    left: 410px;
     font-family: 'Space Mono', monospace;
     font-size: clamp(5rem, 5vw, 1rem);
     text-transform: uppercase;
@@ -421,6 +421,7 @@ html,
 
 .white-font.black_overlay .social-row ul li a:hover {
     color: rgba(255, 255, 255, 0.6);
+    
 }
 
 /********************End code for black and white font color****************************/
@@ -567,6 +568,7 @@ body {
     background-position: center;
 }
 
+
 .social-row ul li a {
     display: block;
     text-decoration: none;
@@ -574,7 +576,7 @@ body {
     font-size: 24px;
     position: relative;
     top: 50px;
-    left: 193px;
+    left: 195px;
 }
 
 .social-row ul li a:hover {
