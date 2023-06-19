@@ -595,6 +595,7 @@ section {
     left: 90px;
     top: 30px;
     animation-name: fade;
+    animation-delay: -2s;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
     animation-duration: 2s;
