@@ -585,8 +585,9 @@ section {
     left: 100px;
     animation-name: fade;
     animation-timing-function: ease-in;
+    animation-delay: 2s;
     animation-iteration-count: infinite;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     animation-direction:alternate;
 }
   .bottom{
@@ -596,7 +597,7 @@ section {
     animation-name: fade;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     animation-direction:alternate-reverse;
 }
  
